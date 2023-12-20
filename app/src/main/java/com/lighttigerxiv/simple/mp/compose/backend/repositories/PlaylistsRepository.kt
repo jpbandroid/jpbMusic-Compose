@@ -1,9 +1,9 @@
-package com.lighttigerxiv.simple.mp.compose.backend.repositories
+package com.jpb.music.compose.backend.repositories
 
-import com.lighttigerxiv.simple.mp.compose.backend.realm.Queries
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Playlist
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Song
-import com.lighttigerxiv.simple.mp.compose.backend.realm.getRealm
+import com.jpb.music.compose.backend.realm.Queries
+import com.jpb.music.compose.backend.realm.collections.Playlist
+import com.jpb.music.compose.backend.realm.collections.Song
+import com.jpb.music.compose.backend.realm.getRealm
 import io.realm.kotlin.ext.toRealmList
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.composables
+package com.jpb.music.compose.frontend.composables
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.size
@@ -12,9 +12,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToSelectArtistCover
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.modifyIf
+import com.jpb.music.compose.R
+import com.jpb.music.compose.frontend.navigation.goToSelectArtistCover
+import com.jpb.music.compose.frontend.utils.modifyIf
 
 @Composable
 fun MenuItem(

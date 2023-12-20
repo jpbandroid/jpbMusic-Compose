@@ -1,15 +1,15 @@
-package com.lighttigerxiv.simple.mp.compose.backend.viewmodels
+package com.jpb.music.compose.backend.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.lighttigerxiv.simple.mp.compose.backend.realm.Queries
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Album
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Artist
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Song
-import com.lighttigerxiv.simple.mp.compose.backend.realm.getRealm
-import com.lighttigerxiv.simple.mp.compose.backend.utils.hasNotificationsPermission
-import com.lighttigerxiv.simple.mp.compose.backend.utils.hasStoragePermission
+import com.jpb.music.compose.backend.realm.Queries
+import com.jpb.music.compose.backend.realm.collections.Album
+import com.jpb.music.compose.backend.realm.collections.Artist
+import com.jpb.music.compose.backend.realm.collections.Song
+import com.jpb.music.compose.backend.realm.getRealm
+import com.jpb.music.compose.backend.utils.hasNotificationsPermission
+import com.jpb.music.compose.backend.utils.hasStoragePermission
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.other_settings
+package com.jpb.music.compose.frontend.screens.setup.other_settings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -6,9 +6,9 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.lighttigerxiv.simple.mp.compose.SimpleMPApplication
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.SettingsRepository
-import com.lighttigerxiv.simple.mp.compose.backend.settings.Settings
+import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.backend.repositories.SettingsRepository
+import com.jpb.music.compose.backend.settings.Settings
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

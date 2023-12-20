@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.main.library.home
+package com.jpb.music.compose.frontend.screens.main.library.home
 
 import android.content.Context
 import androidx.compose.foundation.background
@@ -30,19 +30,19 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.backend.settings.SettingsOptions
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.MenuItem
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.SongCard
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.SongMenuItem
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.TextField
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.VSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToAbout
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToAddSongToPlaylist
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToPreviewAlbum
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToPreviewArtist
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToSettings
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.R
+import com.jpb.music.compose.backend.settings.SettingsOptions
+import com.jpb.music.compose.frontend.composables.MenuItem
+import com.jpb.music.compose.frontend.composables.SongCard
+import com.jpb.music.compose.frontend.composables.SongMenuItem
+import com.jpb.music.compose.frontend.composables.TextField
+import com.jpb.music.compose.frontend.composables.VSpacer
+import com.jpb.music.compose.frontend.navigation.goToAbout
+import com.jpb.music.compose.frontend.navigation.goToAddSongToPlaylist
+import com.jpb.music.compose.frontend.navigation.goToPreviewAlbum
+import com.jpb.music.compose.frontend.navigation.goToPreviewArtist
+import com.jpb.music.compose.frontend.navigation.goToSettings
+import com.jpb.music.compose.frontend.utils.Sizes
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

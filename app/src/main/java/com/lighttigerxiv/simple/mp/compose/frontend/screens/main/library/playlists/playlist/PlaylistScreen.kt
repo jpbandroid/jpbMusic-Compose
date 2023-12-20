@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.main.library.playlists.playlist
+package com.jpb.music.compose.frontend.screens.main.library.playlists.playlist
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -33,22 +33,22 @@ import androidx.compose.ui.unit.dp
 import androidx.glance.layout.Spacer
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.CollapsableHeader
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.IconDialog
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.MenuItem
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.PlayShuffleRow
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.PrimaryButton
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.RemoveFromPlaylistSongCard
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.SongCard
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.TextField
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.Toolbar
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.VSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goBack
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToAddSongsToPlaylist
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.FontSizes
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.modifyIf
+import com.jpb.music.compose.R
+import com.jpb.music.compose.frontend.composables.CollapsableHeader
+import com.jpb.music.compose.frontend.composables.IconDialog
+import com.jpb.music.compose.frontend.composables.MenuItem
+import com.jpb.music.compose.frontend.composables.PlayShuffleRow
+import com.jpb.music.compose.frontend.composables.PrimaryButton
+import com.jpb.music.compose.frontend.composables.RemoveFromPlaylistSongCard
+import com.jpb.music.compose.frontend.composables.SongCard
+import com.jpb.music.compose.frontend.composables.TextField
+import com.jpb.music.compose.frontend.composables.Toolbar
+import com.jpb.music.compose.frontend.composables.VSpacer
+import com.jpb.music.compose.frontend.navigation.goBack
+import com.jpb.music.compose.frontend.navigation.goToAddSongsToPlaylist
+import com.jpb.music.compose.frontend.utils.FontSizes
+import com.jpb.music.compose.frontend.utils.Sizes
+import com.jpb.music.compose.frontend.utils.modifyIf
 import org.mongodb.kbson.ObjectId
 
 @Composable

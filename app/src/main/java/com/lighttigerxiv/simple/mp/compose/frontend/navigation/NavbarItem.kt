@@ -1,6 +1,6 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.navigation
+package com.jpb.music.compose.frontend.navigation
 
-import com.lighttigerxiv.simple.mp.compose.R
+import com.jpb.music.compose.R
 
 data class NavbarItem(
     val route: String,

@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.composables
+package com.jpb.music.compose.frontend.composables
 
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column

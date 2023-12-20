@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.theme
+package com.jpb.music.compose.frontend.theme
 
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.darkColorScheme

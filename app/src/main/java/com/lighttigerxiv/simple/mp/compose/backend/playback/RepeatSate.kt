@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.backend.playback
+package com.jpb.music.compose.backend.playback
 
 enum class RepeatSate {
     Off,

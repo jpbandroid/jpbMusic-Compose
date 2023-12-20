@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.main.add_song_to_playlist
+package com.jpb.music.compose.frontend.screens.main.add_song_to_playlist
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -27,17 +27,17 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Playlist
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.HSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.IconDialog
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.SecondaryButton
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.TextField
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.Toolbar
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.VSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goBack
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.FontSizes
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.R
+import com.jpb.music.compose.backend.realm.collections.Playlist
+import com.jpb.music.compose.frontend.composables.HSpacer
+import com.jpb.music.compose.frontend.composables.IconDialog
+import com.jpb.music.compose.frontend.composables.SecondaryButton
+import com.jpb.music.compose.frontend.composables.TextField
+import com.jpb.music.compose.frontend.composables.Toolbar
+import com.jpb.music.compose.frontend.composables.VSpacer
+import com.jpb.music.compose.frontend.navigation.goBack
+import com.jpb.music.compose.frontend.utils.FontSizes
+import com.jpb.music.compose.frontend.utils.Sizes
 
 @Composable
 fun AddSongToPlaylistScreen(

@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.main.library.playlists
+package com.jpb.music.compose.frontend.screens.main.library.playlists
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Arrangement
@@ -16,16 +16,16 @@ import androidx.compose.ui.res.stringResource
 import androidx.glance.appwidget.lazy.LazyColumn
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.Card
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.DoubleTabRow
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.IconDialog
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.TextField
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.VSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToGenrePlaylist
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToPlaylists
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToUserPlaylist
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.R
+import com.jpb.music.compose.frontend.composables.Card
+import com.jpb.music.compose.frontend.composables.DoubleTabRow
+import com.jpb.music.compose.frontend.composables.IconDialog
+import com.jpb.music.compose.frontend.composables.TextField
+import com.jpb.music.compose.frontend.composables.VSpacer
+import com.jpb.music.compose.frontend.navigation.goToGenrePlaylist
+import com.jpb.music.compose.frontend.navigation.goToPlaylists
+import com.jpb.music.compose.frontend.navigation.goToUserPlaylist
+import com.jpb.music.compose.frontend.utils.Sizes
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

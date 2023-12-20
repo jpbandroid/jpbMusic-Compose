@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.welcome
+package com.jpb.music.compose.frontend.screens.setup.welcome
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -20,10 +20,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.PrimaryButton
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToPermissions
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.R
+import com.jpb.music.compose.frontend.composables.PrimaryButton
+import com.jpb.music.compose.frontend.navigation.goToPermissions
+import com.jpb.music.compose.frontend.utils.Sizes
 
 @Composable
 fun WelcomeScreen(

@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.light_theme
+package com.jpb.music.compose.frontend.screens.setup.light_theme
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -24,17 +24,17 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.HSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.PrimaryButton
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.ThemeSelector
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.VSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goBack
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToDarkTheme
-import com.lighttigerxiv.simple.mp.compose.frontend.theme.PreviewTheme
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.ChangeNavigationBarsColor
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.ChangeStatusBarColor
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.R
+import com.jpb.music.compose.frontend.composables.HSpacer
+import com.jpb.music.compose.frontend.composables.PrimaryButton
+import com.jpb.music.compose.frontend.composables.ThemeSelector
+import com.jpb.music.compose.frontend.composables.VSpacer
+import com.jpb.music.compose.frontend.navigation.goBack
+import com.jpb.music.compose.frontend.navigation.goToDarkTheme
+import com.jpb.music.compose.frontend.theme.PreviewTheme
+import com.jpb.music.compose.frontend.utils.ChangeNavigationBarsColor
+import com.jpb.music.compose.frontend.utils.ChangeStatusBarColor
+import com.jpb.music.compose.frontend.utils.Sizes
 
 @Composable
 fun LightThemeScreen(

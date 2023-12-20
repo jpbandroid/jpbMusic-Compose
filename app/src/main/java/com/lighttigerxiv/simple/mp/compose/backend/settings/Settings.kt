@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.backend.settings
+package com.jpb.music.compose.backend.settings
 
 data class Settings(
     val setupCompleted: Boolean,

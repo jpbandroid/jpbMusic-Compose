@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.composables
+package com.jpb.music.compose.frontend.composables
 
 import android.graphics.Bitmap
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -38,10 +38,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.compose.rememberAsyncImagePainter
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Song
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.modifyIf
+import com.jpb.music.compose.R
+import com.jpb.music.compose.backend.realm.collections.Song
+import com.jpb.music.compose.frontend.utils.Sizes
+import com.jpb.music.compose.frontend.utils.modifyIf
 import org.burnoutcrew.reorderable.ReorderableLazyListState
 import org.burnoutcrew.reorderable.detectReorder
 

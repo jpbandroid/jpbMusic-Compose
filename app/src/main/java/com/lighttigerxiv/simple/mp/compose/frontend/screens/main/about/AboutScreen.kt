@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.main.about
+package com.jpb.music.compose.frontend.screens.main.about
 
 import android.content.Intent
 import android.net.Uri
@@ -31,14 +31,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.BuildConfig
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.CollapsableHeader
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.HSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.Toolbar
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.VSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.FontSizes
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.BuildConfig
+import com.jpb.music.compose.R
+import com.jpb.music.compose.frontend.composables.CollapsableHeader
+import com.jpb.music.compose.frontend.composables.HSpacer
+import com.jpb.music.compose.frontend.composables.Toolbar
+import com.jpb.music.compose.frontend.composables.VSpacer
+import com.jpb.music.compose.frontend.utils.FontSizes
+import com.jpb.music.compose.frontend.utils.Sizes
 
 @Composable
 fun AboutScreen(

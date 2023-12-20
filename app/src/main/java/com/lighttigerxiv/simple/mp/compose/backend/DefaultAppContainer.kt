@@ -1,12 +1,12 @@
-package com.lighttigerxiv.simple.mp.compose.backend
+package com.jpb.music.compose.backend
 
 import android.app.Application
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.LibraryRepository
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.PlaybackRepository
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.PlaylistsRepository
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.SettingsRepository
+import com.jpb.music.compose.backend.repositories.LibraryRepository
+import com.jpb.music.compose.backend.repositories.PlaybackRepository
+import com.jpb.music.compose.backend.repositories.PlaylistsRepository
+import com.jpb.music.compose.backend.repositories.SettingsRepository
 
 class DefaultAppContainer(
     application: Application,

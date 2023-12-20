@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.backend.repositories
+package com.jpb.music.compose.backend.repositories
 
 import android.app.Application
 import android.content.ContentUris
@@ -10,12 +10,12 @@ import android.net.Uri
 import android.provider.MediaStore
 import android.util.Log
 import android.util.Size
-import com.lighttigerxiv.simple.mp.compose.backend.realm.Queries
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Album
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Artist
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Song
-import com.lighttigerxiv.simple.mp.compose.backend.realm.getRealm
-import com.lighttigerxiv.simple.mp.compose.backend.utils.isAtLeastAndroid10
+import com.jpb.music.compose.backend.realm.Queries
+import com.jpb.music.compose.backend.realm.collections.Album
+import com.jpb.music.compose.backend.realm.collections.Artist
+import com.jpb.music.compose.backend.realm.collections.Song
+import com.jpb.music.compose.backend.realm.getRealm
+import com.jpb.music.compose.backend.utils.isAtLeastAndroid10
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

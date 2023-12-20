@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose
+package com.jpb.music.compose
 
 import org.junit.Test
 

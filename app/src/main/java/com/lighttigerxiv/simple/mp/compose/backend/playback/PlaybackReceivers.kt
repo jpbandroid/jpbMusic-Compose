@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.backend.playback
+package com.jpb.music.compose.backend.playback
 
 import android.content.BroadcastReceiver
 import android.content.Context

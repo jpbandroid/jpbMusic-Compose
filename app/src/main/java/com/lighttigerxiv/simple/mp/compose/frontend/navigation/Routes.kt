@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.navigation
+package com.jpb.music.compose.frontend.navigation
 
 object Routes{
     object Setup{

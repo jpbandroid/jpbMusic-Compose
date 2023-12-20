@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.composables
+package com.jpb.music.compose.frontend.composables
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -17,8 +17,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.FontSizes
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.frontend.utils.FontSizes
+import com.jpb.music.compose.frontend.utils.Sizes
 
 @Composable
 fun SettingsSwitch(

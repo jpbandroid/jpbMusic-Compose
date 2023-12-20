@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.navigation
+package com.jpb.music.compose.frontend.navigation
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraph.Companion.findStartDestination

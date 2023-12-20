@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.composables
+package com.jpb.music.compose.frontend.composables
 
 import android.graphics.Bitmap
 import androidx.compose.foundation.Image
@@ -23,7 +23,7 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.frontend.utils.Sizes
 
 @Composable
 fun Card(

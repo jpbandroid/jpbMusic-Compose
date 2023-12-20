@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.main.library.playlists.genre_playlist
+package com.jpb.music.compose.frontend.screens.main.library.playlists.genre_playlist
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -26,14 +26,14 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.CollapsableHeader
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.PlayShuffleRow
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.SongCard
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.Toolbar
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.VSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.FontSizes
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.R
+import com.jpb.music.compose.frontend.composables.CollapsableHeader
+import com.jpb.music.compose.frontend.composables.PlayShuffleRow
+import com.jpb.music.compose.frontend.composables.SongCard
+import com.jpb.music.compose.frontend.composables.Toolbar
+import com.jpb.music.compose.frontend.composables.VSpacer
+import com.jpb.music.compose.frontend.utils.FontSizes
+import com.jpb.music.compose.frontend.utils.Sizes
 import org.mongodb.kbson.ObjectId
 
 @Composable

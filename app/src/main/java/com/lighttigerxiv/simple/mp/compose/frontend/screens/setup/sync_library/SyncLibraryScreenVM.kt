@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.sync_library
+package com.jpb.music.compose.frontend.screens.setup.sync_library
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
@@ -7,9 +7,9 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.lighttigerxiv.simple.mp.compose.SimpleMPApplication
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.LibraryRepository
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.SettingsRepository
+import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.backend.repositories.LibraryRepository
+import com.jpb.music.compose.backend.repositories.SettingsRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

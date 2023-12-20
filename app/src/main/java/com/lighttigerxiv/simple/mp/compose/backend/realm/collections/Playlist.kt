@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.backend.realm.collections
+package com.jpb.music.compose.backend.realm.collections
 
 import io.realm.kotlin.ext.toRealmList
 import io.realm.kotlin.types.RealmList

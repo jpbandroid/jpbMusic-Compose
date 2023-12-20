@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose
+package com.jpb.music.compose
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.lighttigerxiv.simple.mp.compose", appContext.packageName)
+        assertEquals("com.jpb.music.compose", appContext.packageName)
     }
 }

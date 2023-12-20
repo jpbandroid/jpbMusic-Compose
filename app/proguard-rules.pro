@@ -1,8 +1,8 @@
 -keepattributes Signature
 -keepattributes Exceptions
 
--keep class com.lighttigerxiv.simple.mp.compose.data.** { *; }
--keep class com.lighttigerxiv.simple.mp.compose.responses.** { *; }
+-keep class com.jpb.music.compose.data.** { *; }
+-keep class com.jpb.music.compose.responses.** { *; }
 
 -dontwarn org.bouncycastle.jsse.BCSSLParameters
 -dontwarn org.bouncycastle.jsse.BCSSLSocket

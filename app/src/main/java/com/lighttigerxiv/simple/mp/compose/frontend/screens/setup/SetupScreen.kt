@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.setup
+package com.jpb.music.compose.frontend.screens.setup
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.padding
@@ -9,13 +9,13 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.Routes
-import com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.dark_theme.DarkThemeScreen
-import com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.light_theme.LightThemeScreen
-import com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.other_settings.OtherSettingsScreen
-import com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.permissions.PermissionsScreen
-import com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.sync_library.SyncLibraryScreen
-import com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.welcome.WelcomeScreen
+import com.jpb.music.compose.frontend.navigation.Routes
+import com.jpb.music.compose.frontend.screens.setup.dark_theme.DarkThemeScreen
+import com.jpb.music.compose.frontend.screens.setup.light_theme.LightThemeScreen
+import com.jpb.music.compose.frontend.screens.setup.other_settings.OtherSettingsScreen
+import com.jpb.music.compose.frontend.screens.setup.permissions.PermissionsScreen
+import com.jpb.music.compose.frontend.screens.setup.sync_library.SyncLibraryScreen
+import com.jpb.music.compose.frontend.screens.setup.welcome.WelcomeScreen
 
 @Composable
 fun SetupScreen() {

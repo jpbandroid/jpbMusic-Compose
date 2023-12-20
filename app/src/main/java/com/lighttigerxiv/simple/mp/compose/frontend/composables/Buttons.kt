@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.composables
+package com.jpb.music.compose.frontend.composables
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -16,7 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.modifyIf
+import com.jpb.music.compose.frontend.utils.modifyIf
 
 @Composable
 fun PrimaryButton(

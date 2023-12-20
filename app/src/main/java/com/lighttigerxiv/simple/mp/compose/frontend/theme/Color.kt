@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.theme
+package com.jpb.music.compose.frontend.theme
 
 import androidx.compose.ui.graphics.Color
 import com.lighttigerxiv.catppuccin_kt.getFrappeColors

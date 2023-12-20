@@ -9,7 +9,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.lighttigerxiv.simple.mp"
+        applicationId "com.jpb.music"
         minSdk 26
         targetSdk 34
         versionCode 23
@@ -46,7 +46,7 @@ android {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
-    namespace 'com.lighttigerxiv.simple.mp.compose'
+    namespace 'com.jpb.music.compose'
 }
 
 dependencies {

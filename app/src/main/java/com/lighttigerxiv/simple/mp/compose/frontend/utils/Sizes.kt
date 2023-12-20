@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.utils
+package com.jpb.music.compose.frontend.utils
 
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp

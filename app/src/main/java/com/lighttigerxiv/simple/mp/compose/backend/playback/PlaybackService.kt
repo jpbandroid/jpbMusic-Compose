@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.backend.playback
+package com.jpb.music.compose.backend.playback
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -14,10 +14,10 @@ import android.support.v4.media.MediaMetadataCompat
 import androidx.annotation.OptIn
 import androidx.core.app.NotificationCompat
 import androidx.media3.common.util.UnstableApi
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.SimpleMPApplication
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.PlaybackRepository
-import com.lighttigerxiv.simple.mp.compose.frontend.activities.main.MainActivity
+import com.jpb.music.compose.R
+import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.backend.repositories.PlaybackRepository
+import com.jpb.music.compose.frontend.activities.main.MainActivity
 
 class PlaybackService : Service() {
 

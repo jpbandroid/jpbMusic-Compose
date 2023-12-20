@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.backend.repositories
+package com.jpb.music.compose.backend.repositories
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -6,9 +6,9 @@ import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
-import com.lighttigerxiv.simple.mp.compose.backend.settings.Settings
-import com.lighttigerxiv.simple.mp.compose.backend.settings.SettingsOptions
-import com.lighttigerxiv.simple.mp.compose.backend.utils.isAtLeastAndroid12
+import com.jpb.music.compose.backend.settings.Settings
+import com.jpb.music.compose.backend.settings.SettingsOptions
+import com.jpb.music.compose.backend.utils.isAtLeastAndroid12
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.map

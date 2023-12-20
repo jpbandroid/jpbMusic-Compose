@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.theme
+package com.jpb.music.compose.frontend.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

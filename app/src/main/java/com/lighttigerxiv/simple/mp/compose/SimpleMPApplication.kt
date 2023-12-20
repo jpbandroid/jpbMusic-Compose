@@ -1,10 +1,10 @@
-package com.lighttigerxiv.simple.mp.compose
+package com.jpb.music.compose
 
 import android.app.Application
 import android.content.Context
 import androidx.datastore.preferences.preferencesDataStore
-import com.lighttigerxiv.simple.mp.compose.backend.AppContainer
-import com.lighttigerxiv.simple.mp.compose.backend.DefaultAppContainer
+import com.jpb.music.compose.backend.AppContainer
+import com.jpb.music.compose.backend.DefaultAppContainer
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.withContext

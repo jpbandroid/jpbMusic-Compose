@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.main.settings
+package com.jpb.music.compose.frontend.screens.main.settings
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -34,20 +34,20 @@ import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.backend.settings.SettingsOptions
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.FullscreenDialogToolbar
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.HSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.PrimaryButton
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.SecondaryButton
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.TextField
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.ThemeSelector
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.Toolbar
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.VSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.theme.PreviewTheme
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.ChangeNavigationBarsColor
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.FontSizes
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.R
+import com.jpb.music.compose.backend.settings.SettingsOptions
+import com.jpb.music.compose.frontend.composables.FullscreenDialogToolbar
+import com.jpb.music.compose.frontend.composables.HSpacer
+import com.jpb.music.compose.frontend.composables.PrimaryButton
+import com.jpb.music.compose.frontend.composables.SecondaryButton
+import com.jpb.music.compose.frontend.composables.TextField
+import com.jpb.music.compose.frontend.composables.ThemeSelector
+import com.jpb.music.compose.frontend.composables.Toolbar
+import com.jpb.music.compose.frontend.composables.VSpacer
+import com.jpb.music.compose.frontend.theme.PreviewTheme
+import com.jpb.music.compose.frontend.utils.ChangeNavigationBarsColor
+import com.jpb.music.compose.frontend.utils.FontSizes
+import com.jpb.music.compose.frontend.utils.Sizes
 
 @Composable
 fun SettingsScreen(

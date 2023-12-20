@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.backend.utils
+package com.jpb.music.compose.backend.utils
 
 import java.text.Normalizer
 

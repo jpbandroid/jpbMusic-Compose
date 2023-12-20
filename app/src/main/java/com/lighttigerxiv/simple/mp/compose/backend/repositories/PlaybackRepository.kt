@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.backend.repositories
+package com.jpb.music.compose.backend.repositories
 
 import android.app.Application
 import android.content.Context
@@ -18,11 +18,11 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
-import com.lighttigerxiv.simple.mp.compose.backend.playback.BluetoothReceiver
-import com.lighttigerxiv.simple.mp.compose.backend.playback.PlaybackService
-import com.lighttigerxiv.simple.mp.compose.backend.playback.RepeatSate
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Song
-import com.lighttigerxiv.simple.mp.compose.backend.utils.isAtLeastAndroid13
+import com.jpb.music.compose.backend.playback.BluetoothReceiver
+import com.jpb.music.compose.backend.playback.PlaybackService
+import com.jpb.music.compose.backend.playback.RepeatSate
+import com.jpb.music.compose.backend.realm.collections.Song
+import com.jpb.music.compose.backend.utils.isAtLeastAndroid13
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

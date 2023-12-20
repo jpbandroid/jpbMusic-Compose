@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.activities.main
+package com.jpb.music.compose.frontend.activities.main
 
 
 import android.os.Bundle
@@ -17,12 +17,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.frontend.screens.main.MainScreen
-import com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.SetupScreen
-import com.lighttigerxiv.simple.mp.compose.frontend.theme.SimpleMPTheme
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.ChangeNavigationBarsColor
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.ChangeStatusBarColor
+import com.jpb.music.compose.R
+import com.jpb.music.compose.frontend.screens.main.MainScreen
+import com.jpb.music.compose.frontend.screens.setup.SetupScreen
+import com.jpb.music.compose.frontend.theme.SimpleMPTheme
+import com.jpb.music.compose.frontend.utils.ChangeNavigationBarsColor
+import com.jpb.music.compose.frontend.utils.ChangeStatusBarColor
 
 
 class MainActivity : ComponentActivity() {

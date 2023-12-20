@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.theme
+package com.jpb.music.compose.frontend.theme
 
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -10,10 +10,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
-import com.lighttigerxiv.simple.mp.compose.backend.settings.Settings
-import com.lighttigerxiv.simple.mp.compose.backend.settings.SettingsOptions
-import com.lighttigerxiv.simple.mp.compose.backend.utils.isAtLeastAndroid12
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.ChangeStatusBarColor
+import com.jpb.music.compose.backend.settings.Settings
+import com.jpb.music.compose.backend.settings.SettingsOptions
+import com.jpb.music.compose.backend.utils.isAtLeastAndroid12
+import com.jpb.music.compose.frontend.utils.ChangeStatusBarColor
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 

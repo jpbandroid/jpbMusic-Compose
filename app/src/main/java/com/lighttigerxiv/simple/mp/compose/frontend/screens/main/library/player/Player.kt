@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.main.library.player
+package com.jpb.music.compose.frontend.screens.main.library.player
 
 import android.graphics.Bitmap
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -66,15 +66,15 @@ import androidx.constraintlayout.compose.MotionScene
 import androidx.constraintlayout.compose.layoutId
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
-import com.lighttigerxiv.simple.mp.compose.R
-import com.lighttigerxiv.simple.mp.compose.backend.playback.RepeatSate
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.HSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.PlayingListSongCard
-import com.lighttigerxiv.simple.mp.compose.frontend.composables.VSpacer
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToAddSongToPlaylist
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToPreviewAlbum
-import com.lighttigerxiv.simple.mp.compose.frontend.navigation.goToPreviewArtist
-import com.lighttigerxiv.simple.mp.compose.frontend.utils.Sizes
+import com.jpb.music.compose.R
+import com.jpb.music.compose.backend.playback.RepeatSate
+import com.jpb.music.compose.frontend.composables.HSpacer
+import com.jpb.music.compose.frontend.composables.PlayingListSongCard
+import com.jpb.music.compose.frontend.composables.VSpacer
+import com.jpb.music.compose.frontend.navigation.goToAddSongToPlaylist
+import com.jpb.music.compose.frontend.navigation.goToPreviewAlbum
+import com.jpb.music.compose.frontend.navigation.goToPreviewArtist
+import com.jpb.music.compose.frontend.utils.Sizes
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.launch

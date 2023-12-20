@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.setup.permissions
+package com.jpb.music.compose.frontend.screens.setup.permissions
 
 import android.app.Application
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -6,9 +6,9 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
-import com.lighttigerxiv.simple.mp.compose.backend.utils.hasNotificationsPermission
-import com.lighttigerxiv.simple.mp.compose.backend.utils.hasStoragePermission
-import com.lighttigerxiv.simple.mp.compose.backend.utils.isAtLeastAndroid13
+import com.jpb.music.compose.backend.utils.hasNotificationsPermission
+import com.jpb.music.compose.backend.utils.hasStoragePermission
+import com.jpb.music.compose.backend.utils.isAtLeastAndroid13
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

@@ -1,4 +1,4 @@
-package com.lighttigerxiv.simple.mp.compose.frontend.screens.main.library.playlists.playlist.add_songs
+package com.jpb.music.compose.frontend.screens.main.library.playlists.playlist.add_songs
 
 import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
@@ -7,13 +7,13 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.lighttigerxiv.simple.mp.compose.SimpleMPApplication
-import com.lighttigerxiv.simple.mp.compose.backend.realm.Queries
-import com.lighttigerxiv.simple.mp.compose.backend.realm.collections.Song
-import com.lighttigerxiv.simple.mp.compose.backend.realm.getRealm
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.LibraryRepository
-import com.lighttigerxiv.simple.mp.compose.backend.repositories.PlaylistsRepository
-import com.lighttigerxiv.simple.mp.compose.backend.utils.matchesSearch
+import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.backend.realm.Queries
+import com.jpb.music.compose.backend.realm.collections.Song
+import com.jpb.music.compose.backend.realm.getRealm
+import com.jpb.music.compose.backend.repositories.LibraryRepository
+import com.jpb.music.compose.backend.repositories.PlaylistsRepository
+import com.jpb.music.compose.backend.utils.matchesSearch
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
