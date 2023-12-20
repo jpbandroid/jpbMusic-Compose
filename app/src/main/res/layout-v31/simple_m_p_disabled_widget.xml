@@ -1,8 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Widget.ComposeSimpleMP.AppWidget.Container"
+    style="@style/Widget.ComposeMusic.AppWidget.Container"
     android:layout_width="match_parent"
     android:layout_height="120dp"
-    android:theme="@style/Widget.ComposeSimpleMP.AppWidget.Container">
+    android:theme="@style/Widget.ComposeMusic.AppWidget.Container">
 
     <TextView
         android:id="@+id/noMusicPlaying_Widget"

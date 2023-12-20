@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SimpleMP</string>
+    <string name="app_name">Music</string>
     <string name="undefined">Indefinido</string>
     <string name="appwidget_text">EXEMPLO</string>
     <string name="add_widget">Adicionar Widget</string>

@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.MusicApplication
 import com.jpb.music.compose.backend.repositories.LibraryRepository
 import com.jpb.music.compose.backend.repositories.SettingsRepository
 import kotlinx.coroutines.Dispatchers
@@ -23,7 +23,7 @@ class SyncLibraryScreenVM(
     companion object Factory{
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-                val application = (this[APPLICATION_KEY] as SimpleMPApplication)
+                val application = (this[APPLICATION_KEY] as MusicApplication)
                 val settingsRepository = application.container.settingsRepository
                 val libraryRepository = application.container.libraryRepository
 

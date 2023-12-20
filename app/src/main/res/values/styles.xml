@@ -1,9 +1,9 @@
 <resources>
-    <style name="Theme.ComposeSimpleMP" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.ComposeMusic" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:statusBarColor">@color/transparent</item>
     </style>
 
-    <style name="Widget.ComposeSimpleMP.AppWidget.Container" parent="android:Widget">
+    <style name="Widget.ComposeMusic.AppWidget.Container" parent="android:Widget">
         <item name="android:id">@android:id/background</item>
         <item name="android:background">@drawable/app_widget_background</item>
     </style>
@@ -13,7 +13,7 @@
         <item name="android:textColor">@color/onSurface</item>
     </style>
 
-    <style name="Widget.ComposeSimpleMP.AppWidget.InnerView" parent="android:Widget">
+    <style name="Widget.ComposeMusic.AppWidget.InnerView" parent="android:Widget">
         <item name="android:background">?android:attr/colorBackground</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>

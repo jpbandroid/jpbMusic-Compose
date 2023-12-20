@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.MusicApplication
 import com.jpb.music.compose.backend.realm.collections.Song
 import com.jpb.music.compose.backend.repositories.LibraryRepository
 import com.jpb.music.compose.backend.repositories.PlaybackRepository
@@ -25,7 +25,7 @@ class AlbumScreenVM(
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
 
-                val application = (this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as SimpleMPApplication)
+                val application = (this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as MusicApplication)
                 val libraryRepository = application.container.libraryRepository
                 val playbackRepository = application.container.playbackRepository
 

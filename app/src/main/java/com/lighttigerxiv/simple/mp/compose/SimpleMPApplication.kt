@@ -9,7 +9,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.withContext
 
-class SimpleMPApplication: Application() {
+class MusicApplication: Application() {
 
     private val Context.dataStore by preferencesDataStore(name = "settings")
 

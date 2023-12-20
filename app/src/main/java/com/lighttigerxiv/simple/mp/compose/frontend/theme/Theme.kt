@@ -18,7 +18,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 
 @Composable
-fun SimpleMPTheme(
+fun MusicTheme(
     settings: Settings?,
     content: @Composable () -> Unit
 ) {

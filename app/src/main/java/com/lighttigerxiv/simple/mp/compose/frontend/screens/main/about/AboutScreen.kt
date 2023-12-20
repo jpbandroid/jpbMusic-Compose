@@ -124,7 +124,7 @@ fun AboutScreen(
                     .background(MaterialTheme.colorScheme.surfaceVariant)
                     .clickable {
                         context.startActivity(
-                            Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/lighttigerXIV/SimpleMP-Compose"))
+                            Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/lighttigerXIV/Music-Compose"))
                         )
                     }
                     .padding(Sizes.LARGE),

@@ -9,7 +9,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.jpb.music.compose.R
-import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.MusicApplication
 import com.jpb.music.compose.backend.realm.Queries
 import com.jpb.music.compose.backend.realm.collections.Playlist
 import com.jpb.music.compose.backend.realm.getRealm
@@ -30,7 +30,7 @@ class AddSongToPlaylistScreenVM(
     companion object Factory {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-                val app = (this[APPLICATION_KEY] as SimpleMPApplication)
+                val app = (this[APPLICATION_KEY] as MusicApplication)
 
                 AddSongToPlaylistScreenVM(
                     app,

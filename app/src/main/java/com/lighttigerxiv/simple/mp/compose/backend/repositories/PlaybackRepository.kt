@@ -126,7 +126,7 @@ class PlaybackRepository(
         })
     }
 
-    val session = MediaSessionCompat(application, "SimpleMPMediaSession").apply {
+    val session = MediaSessionCompat(application, "MusicMediaSession").apply {
         setCallback(object : MediaSessionCompat.Callback() {
             override fun onMediaButtonEvent(mediaButtonEvent: Intent?): Boolean {
 

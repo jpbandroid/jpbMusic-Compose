@@ -15,7 +15,7 @@ import androidx.annotation.OptIn
 import androidx.core.app.NotificationCompat
 import androidx.media3.common.util.UnstableApi
 import com.jpb.music.compose.R
-import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.MusicApplication
 import com.jpb.music.compose.backend.repositories.PlaybackRepository
 import com.jpb.music.compose.frontend.activities.main.MainActivity
 
@@ -27,7 +27,7 @@ class PlaybackService : Service() {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
 
-        val app = this.application as SimpleMPApplication
+        val app = this.application as MusicApplication
         val playbackRepository = app.container.playbackRepository
 
         when (intent?.action) {

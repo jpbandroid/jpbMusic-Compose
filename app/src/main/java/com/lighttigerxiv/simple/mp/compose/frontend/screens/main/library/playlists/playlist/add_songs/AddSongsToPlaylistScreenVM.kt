@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.MusicApplication
 import com.jpb.music.compose.backend.realm.Queries
 import com.jpb.music.compose.backend.realm.collections.Song
 import com.jpb.music.compose.backend.realm.getRealm
@@ -28,7 +28,7 @@ class AddSongsToPlaylistScreenVM(
     companion object Factory {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-                val app = (this[APPLICATION_KEY] as SimpleMPApplication)
+                val app = (this[APPLICATION_KEY] as MusicApplication)
                 val libraryRepository = app.container.libraryRepository
                 val playlistsRepository = app.container.playlistsRepository
 

@@ -10,7 +10,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.jpb.music.compose.R
-import com.jpb.music.compose.SimpleMPApplication
+import com.jpb.music.compose.MusicApplication
 import com.jpb.music.compose.backend.repositories.LibraryRepository
 import com.jpb.music.compose.backend.repositories.SettingsRepository
 import com.jpb.music.compose.backend.settings.SettingsOptions
@@ -28,7 +28,7 @@ class SettingsScreenVM(
     companion object Factory {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-                val app = (this[APPLICATION_KEY] as SimpleMPApplication)
+                val app = (this[APPLICATION_KEY] as MusicApplication)
                 val settingsRepository = app.container.settingsRepository
                 val libraryRepository = app.container.libraryRepository
 

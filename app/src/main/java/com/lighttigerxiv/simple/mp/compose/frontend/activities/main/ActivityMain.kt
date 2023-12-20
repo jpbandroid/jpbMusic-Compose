@@ -20,7 +20,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.jpb.music.compose.R
 import com.jpb.music.compose.frontend.screens.main.MainScreen
 import com.jpb.music.compose.frontend.screens.setup.SetupScreen
-import com.jpb.music.compose.frontend.theme.SimpleMPTheme
+import com.jpb.music.compose.frontend.theme.MusicTheme
 import com.jpb.music.compose.frontend.utils.ChangeNavigationBarsColor
 import com.jpb.music.compose.frontend.utils.ChangeStatusBarColor
 
@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
             val vm: ActivityMainVM = viewModel(factory = ActivityMainVM.Factory)
             val settings = vm.settings.collectAsState().value
 
-            SimpleMPTheme(settings) {
+            MusicTheme(settings) {
 
                 ChangeStatusBarColor(color = MaterialTheme.colorScheme.surface)
                 ChangeNavigationBarsColor(color = MaterialTheme.colorScheme.surface)
